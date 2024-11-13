@@ -1,7 +1,6 @@
-The PDF is the supplementary material paper.
 Regarding the code:
 The following is demo of AdversariaLeak attack using 5 identities of LFW dataset.
-    THe demo is illustrated on the following:
+    The demo is illustrated on the following:
     the pretrained backbone is iresnet100 (you can replace to RepVGG_B0), the property is
     male (you can replace to 5_oclock_shadow or Young), the seed is 42 (you can replace your own seed used) and the evasion attack is PGD
     (you can replace it to Carlini-Wagner L2).
