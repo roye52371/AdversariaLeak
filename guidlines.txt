@@ -1,0 +1,49 @@
+The PDF is the supplementary material paper.
+Regarding the code:
+The following is demo of AdversariaLeak attack using 5 identities of LFW dataset.
+    THe demo is illustrated on the following:
+    the pretrained backbone is iresnet100 (you can replace to RepVGG_B0), the property is
+    male (you can replace to 5_oclock_shadow or Young), the seed is 42 (you can replace your own seed used) and the evasion attack is PGD
+    (you can replace it to Carlini-Wagner L2).
+    The loaded FR systems were trained on CelebA dataset, you can replace them with the paths to your own trained FR systems (trained on the supported datasets - CelebA or MAAD-Face).
+The predictor architecture which was loaded in the demo was different between the target to the substitute models (examining the black-box scenario), you can change it or use the same predictor architecture for both the target and substitute models (grey-box scenario).
+    Use the demo after:
+     (a) Training the target model using run_target_model_creation.py
+     (b) phase 1 of AdversariaLeak attack -
+     Training the substitute models using run_substitute_model_creation.py
+
+    The demo is:
+     (1) creating adversarial samples for each of the two substitute models (phase 2 of AdversariaLeak attack),
+     (2) filtering the converged adversarial samples (phase 3 of AdversariaLeak attack),
+     (3) then filtering the unique adversarial samples of each adversarial samples set (phase 3 of AdversariaLeak attack).
+     (4) Finally calculate the proportion of the unique adversarial samples that mislead the target model,
+         for each adversarial samples set, and infer the property
+         of the one who has the higher fraction of misleading samples (phase 4 of AdversariaLeak attack).
+
+     *set the data_path and the target (target_model_path) and substitute models paths (sub_0_path and sub_100_path)
+      according to your data path and your target and substitute model paths.
+     notice the embedder pretrained backbones paths (in the embedder directory files) are according to a path you can access
+      - if not then change it to your paths.
+      notice the predictors and embedders (if fine-tuned) checkpoints paths (which will be created after creating training and substitute FR models) are according to a path you can access
+      - if not then change it to your paths, and adjust 'load_checkpoint_for_eval' and 'load_predictor' functions accordingly.
+
+Moreover, you will need to download the ModelX_Zoo folder from github repository:
+ https://github.com/JDAI-CV/FaceX-Zoo
+
+ In addition, "Run_scripts/gpu_files/all_gpu_options/run_adversariaLeak_demo" contains the script to run the demo
+      on gpu servers, if you need (change the absolute paths their according to your paths).
+
+
+ about the files which are not the demo:
+    1. run_target_model_creation.py - train the target model - in Run_scripts/python_scripts_files directory
+    2. run_substitute_model_creation.py - train the substitute models -  in Run_scripts/python_scripts_files directory
+    3. Attack_ART_new.py - craft the adversarial samples for a substitute model (phase 2 of AdversariaLeak attack) -  in Run_scripts/python_scripts_files directory
+    4. run_AdversariaLeak_attack.py - run the rest of AdversariaLeak attack (phase 3 and 4 of AdversariaLeak attack) -  in Run_scripts/python_scripts_files directory
+    5. run_loss_test.py - run the loss test attack for comparison -  in Run_scripts/attacks_to_compare directory
+    6. run_threshold_test_attack.py - run the threshold test attack for comparison - in Run_scripts/attacks_to_compare directory
+    7. create_graphs.py - create the query budget graphs for AdversariaLeak, loss test and threshold test attacks - in Run_scripts/python_scripts_files directory
+
+    *Note, those files contain a paths to different directories, so you will need to change them according to your paths.
+    *Note, we used neptune ai, so if you want to use it, you will need to create an account in neptune ai and adjust the neptune recoder function accordingly, or else delete its use.
+
+
