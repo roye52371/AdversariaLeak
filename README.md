@@ -19,11 +19,6 @@ This repository contains the code for the paper **"AdversariaLeak: External Info
 - `guidlines` - Instructions and guidelines for setting up and running the project.
 - `requirements.txt` - Lists dependencies required for this project.
 
-**Instructions:**
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Run `Demo.py` to execute a sample attack on a pre-defined model.
-
 **Authors:**
 - Roye Katzav, Amit Giloni, Edita Grolman, Hiroo Saito, Tomoyuki Shibata, Tsukasa Omino, Misaki Komatsu, Yoshikazu Hanatani, Yuval Elovici, and Asaf Shabtai.
 
