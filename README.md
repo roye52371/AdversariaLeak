@@ -28,6 +28,11 @@ This repository contains the code for the paper **"AdversariaLeak: External Info
 **Citation:**
 If you use this code in your research, please cite the following paper:
 
+## ✍️ Citation
+
+If you use this code for your research, please cite our paper.
+
+```bibtex
 @inproceedings{katzav2025adversarialeak,
   title={AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems},
   author={Katzav, Roye and Giloni, Amit and Grolman, Edita and Saito, Hiroo and Shibata, Tomoyuki and Omino, Tsukasa and Komatsu, Misaki and Hanatani, Yoshikazu and Elovici, Yuval and Shabtai, Asaf},
