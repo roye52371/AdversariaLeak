@@ -2,11 +2,11 @@
 
 # 🎭 AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems (ECCV'2024)
 
-[![Python](https://img.shields.io/badge/Python-3.9.15-blue.svg)](https://www.python.org/downloads/release/python-3915/)
-[![Sklearn](https://img.shields.io/badge/Sklearn-1.0.2-orange.svg)](https://scikit-learn.org/stable/whats_new/v1.0.html)
-[![NumPy](https://img.shields.io/badge/NumPy-1.23.5-blue.svg)](https://numpy.org/doc/stable/release/1.23.5-notes.html)
-[![ART](https://img.shields.io/badge/Adversarial%20Robustness%20Toolbox-1.12.2-lightgrey.svg)](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.13.0-red.svg)](https://pytorch.org/blog/pytorch-1.13-released/)
+[![Python](https://img.shields.io/badge/Python-3.9.15-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3915/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-red?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Sklearn](https://img.shields.io/badge/Sklearn-orange?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-blue?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![ART](https://img.shields.io/badge/ART-lightgrey?style=flat&logo=python&logoColor=white)](https://adversarial-robustness-toolbox.readthedocs.io/)
 
 
 
@@ -17,7 +17,8 @@
 
 ## 📄 Description
 
-This repository contains the code for the paper **"AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems"**. AdversariaLeak is a novel and practical attack targeting face recognition systems to infer sensitive information about the training data by utilizing adversarial samples.
+This repository contains the code for the paper **"AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems"** published in ECCV 2024 conference.
+AdversariaLeak is a novel and practical attack targeting face recognition systems to infer sensitive information about the training data by utilizing adversarial samples.
 
 ---
 
