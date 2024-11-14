@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🎭 AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems (ECCV'2024)
+# AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems (ECCV'2024)
 
 [![Python](https://img.shields.io/badge/Python-3.9.15-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3915/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-red?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Sklearn](https://img.shields.io/badge/Sklearn-orange?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-blue?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
-[![ART](https://img.shields.io/badge/ART-lightgrey?style=flat&logo=python&logoColor=white)](https://adversarial-robustness-toolbox.readthedocs.io/)
+[![ART](https://img.shields.io/badge/ART-lightgrey?style=flat&logo=python&logoColor=white)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 
 
 
@@ -48,21 +48,6 @@ Here are some useful links related to this project:
 - `Demo.py` - Demonstration of the attack pipeline.
 - `guidelines` - Instructions and guidelines for setting up and running the project.
 - `requirements.txt` - Lists dependencies required for this project.
-
----
-
-## 👥 Authors
-
-- **Roye Katzav**
-- Amit Giloni
-- Edita Grolman
-- Hiroo Saito
-- Tomoyuki Shibata
-- Tsukasa Omino
-- Misaki Komatsu
-- Yoshikazu Hanatani
-- Yuval Elovici
-- Asaf Shabtai
 
 ---
 
