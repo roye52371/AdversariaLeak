@@ -2,12 +2,12 @@
 
 # 🎭 AdversariaLeak: External Information Leakage Attack Using Adversarial Samples on Face Recognition Systems (ECCV'2024)
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![ECCV 2024](https://img.shields.io/badge/Conference-ECCV%202024-red)](https://eccv.ecva.net/virtual/2024/poster/324)
-[![Sklearn](https://img.shields.io/badge/Sklearn-latest-orange.svg)](https://scikit-learn.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-latest-blue.svg)](https://numpy.org/)
-[![ART](https://img.shields.io/badge/Adversarial%20Robustness%20Toolbox-latest-lightgrey.svg)](https://adversarial-robustness-toolbox.readthedocs.io/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-latest-red.svg)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/Python-3.9.15-blue.svg)](https://www.python.org/downloads/release/python-3915/)
+[![Sklearn](https://img.shields.io/badge/Sklearn-1.0.2-orange.svg)](https://scikit-learn.org/stable/whats_new/v1.0.html)
+[![NumPy](https://img.shields.io/badge/NumPy-1.23.5-blue.svg)](https://numpy.org/doc/stable/release/1.23.5-notes.html)
+[![ART](https://img.shields.io/badge/Adversarial%20Robustness%20Toolbox-1.12.2-lightgrey.svg)](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.13.0-red.svg)](https://pytorch.org/blog/pytorch-1.13-released/)
+
 
 
 
